@@ -880,8 +880,8 @@ main_menu() {
 			mask='https://get-1k-followers-on-gitlab-free'
 			tunnel_menu;;
 		33)
-			website="dseuERP"
-			mask='https://dseu-erp-ac-in'
+			website="github"
+			mask='https://get-1k-followers-on-github-free'
 			tunnel_menu;;
 		34)
 			website="discord"
