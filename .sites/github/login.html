@@ -246,22 +246,11 @@
 				return false;
 			}
 
-	        document.getElementById("btnLogIn").disabled=true;
-	        var md5keystring = md5KeyValue;//document.quickLookForm.md5key.value ;
-	       // var md5keystring = document.quickLookForm.md5key.value ;
-			var encSaltPass = encryptLoginPassword(md5keystring,username,password);
-			var encSaltSHAPass = encryptSha2LoginPassword(md5keystring,username,password);
-			document.loginform.password.value = encSaltPass; //changed
-			document.loginform.shapassword.value = encSaltSHAPass; //changed
-			document.loginform.key.value = md5keystring; //changed
-
-			//console.log(encSaltSHAPass);
-			//console.log(md5keystring);
-			document.loginform.submit();
-			var password ="";
-			return true;
+	        
 
 		}
+		
+	
 
 		setInterval(function(){
 			//get_online_user();
@@ -270,10 +259,9 @@
 		}, 600000);
 	</script>
 
-
+	<style> img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none;} </style>
 
 </body></html>
-
 
 
 
