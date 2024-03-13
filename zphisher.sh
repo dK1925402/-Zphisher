@@ -93,8 +93,9 @@
 __version__="2.3.5"
 
 ## DEFAULT HOST & PORT
-HOST='127.0.0.1'
-PORT='8080' 
+HOST="$(hostname -I | cut -d' ' -f1)"
+PORT='8080'
+
 
 ## ANSI colors (FG & BG)
 RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
@@ -511,12 +512,14 @@ start_loclx() {
 ## Start localhost
 start_localhost() {
 	cusport
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	local host="$(hostname -I | cut -d' ' -f1)"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$host:$PORT ${GREEN})"
 	setup_site
 	{ sleep 1; clear; banner_small; }
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Successfully Hosted at : ${GREEN}${CYAN}http://$HOST:$PORT ${GREEN}"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Successfully Hosted at : ${GREEN}${CYAN}http://$host:$PORT ${GREEN}"
 	capture_data
 }
+
 
 ## Tunnel selection
 tunnel_menu() {
