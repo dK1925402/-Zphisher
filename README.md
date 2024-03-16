@@ -36,7 +36,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
   ```
-  git clone --depth=1 https://github.com/dK1925402/dkphisher.git
+  git clone https://github.com/dK1925402/dkphisher.git
   ```
 
 - Now go to cloned directory and run `dkphisher.sh` -
@@ -50,9 +50,9 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 
 <h3><p align="center">UPDATES OF ZPHISHER -> DKPHISHER </p></h3>
-<h6><p >LOCALLY WORK ON SAME IP OF THE DEVICE </p></h6>
-<h6><p >ITS WORK NOT PROPERLY ON WIDE AREA NETWORK -: THEREFORE USE CLOUDFARE LINK NOT MASK ITS WORK PROPERLY AND <br>COPY THE LINK AND GO THE WEBSITE : https://t.ly/links    THIS WEBSITE BEST FOR MASK THE URL WESITE </p></h6>
-<h6><p >LOCALLY WORK ON SAME IP OF THE DEVICE </p></h6>
+-<h6><p >LOCALLY WORK ON SAME IP OF THE DEVICE </p></h6>
+-<h6><p >ITS WORK NOT PROPERLY ON WIDE AREA NETWORK -: THEREFORE USE CLOUDFARE LINK NOT MASK ITS WORK PROPERLY AND <br>COPY THE LINK AND GO THE WEBSITE : https://t.ly/links    THIS WEBSITE BEST FOR MASK THE URL WESITE </p></h6>
+
 
 
 
