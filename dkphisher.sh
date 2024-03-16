@@ -4,7 +4,7 @@
 
 ##   dkphisher 	: 	Automated Phishing Tool
 ##   New Author : 	Dhruv kumar 
-##   Version 	: 	2.3.6
+##   Version 	: 	2.3.5
 ##   Github 	: 	https://github.com/dK1925402/dkphisher.git
 
 
@@ -85,7 +85,7 @@
 ##    HTR-TECH (https://github.com/htr-tech) because i am updated to  HTR-TECH to dkphisher
 
 
-__version__="2.3.6"
+__version__="2.3.5"
 
 ## DEFAULT HOST & PORT
 HOST="$(hostname -I | cut -d' ' -f1)"
