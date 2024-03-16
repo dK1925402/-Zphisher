@@ -200,20 +200,13 @@ check_status() {
 banner() {
 	cat <<- EOF
  
-		
-
-
+${ORANGE} 	
 ${ORANGE}         _ _          _     _     _               
 ${ORANGE}      __| | | ___ __ | |__ (_)___| |__   ___ _ __ 
 ${ORANGE}     / _` | |/ / '_ \| '_ \| / __| '_ \ / _ \ '__|
 ${ORANGE}    | (_| |   <| |_) | | | | \__ \ | | |  __/ |   
 ${ORANGE}     \__,_|_|\_\ .__/|_| |_|_|___/_| |_|\___|_|   
-${ORANGE}               |_|                                
-
-
-                                 
-		                                     
-		                   ${RED}Version : ${__version__}
+${ORANGE}               |_|                   ${RED}Version : ${__version__}
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech & updated by DK1925402 ${WHITE}
 	EOF
