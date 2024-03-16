@@ -94,7 +94,7 @@ __version__="2.3.5"
 
 ## DEFAULT HOST & PORT
 HOST="$(hostname -I | cut -d' ' -f1)"
-PORT='8080'
+PORT='80'
 
 
 ## ANSI colors (FG & BG)
